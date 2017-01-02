@@ -49,7 +49,7 @@ do=sqrt(Efs/Emp);
 %Creation of the random Sensor Network
 figure(1);
 for i=1:1:n
-    S(i).xd(1) = rand(1,1)*xm;%×ø±ê
+    S(i).xd(1) = rand(1,1)*xm;%Ã—Ã¸Â±Ãª
     %XR(i)=S(i).xd;
     S(i).yd(1) = rand(1,1)*ym;
     %YR(i)=S(i).yd;
